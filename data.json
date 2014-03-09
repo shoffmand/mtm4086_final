@@ -1,0 +1,34 @@
+[
+		{
+	    "title" : "Amnesty International Canada", 
+	    "team"   : "Project details",
+		"info"   : "Petitions are a great tactic, but there's some crucial functionality - and fun - lost in the switch from paper to digital. The Petition App will help activists search existing e-petitions, create new petitions, collect signatures, and submit petitions to Amnesty International (which delivers the petition).",
+	   	"pImgUrl" : "images/logo-amnesty.gif",
+		"tImgUrl" : "img/IMG_6261.jpg",
+		"link": "#"
+	},
+	{
+	    "title" : "The Otesha Project", 
+	    "team"   : "Project details",
+		"info"   : "To develop a mobile application that can engage the community while cleverly spreading our message of global equality. The theme of the game and the visuals will be about the Otesha bike tours. The game would be a puzzle game, similar to Bejeweled. Instead of matching jewels, the user matches 3 or 4 identical icons or symbols that are related to the chapters of the Otesha book. Each icon category would be a symbol that represents a chapter in the Otesha book.",
+	   	"pImgUrl" : "images/logo-the-otesha-project.jpg",
+		"tImgUrl" : "img/IMG_6261.jpg",
+		"link": "#"
+	},
+	{
+	    "title" : "Ladies Learning Code", 
+	    "team"   : "Project details",
+		"info"   : "To build a job board that helps connect workshop learners and the technology community with great talent. The job board will have three pages: main, administration page and a job seeker's area. Some of the key tasks and functionality required are to: search jobs, browse jobs by date, browse by category or by employer, and to include the most recent jobs listed on the front page.",
+	   	"pImgUrl" : "images/logo-ladies-learning-code.png",
+		"tImgUrl" : "img/IMG_6261.jpg",
+		"link": "#"
+	},
+		{
+	    "title" : "Learning for a Sustainable Future", 
+	    "team"   : "Project details",
+		"info"   : "The objectives are to enhance the tools teachers have to use inquiry-based learning with their students and to spark a whole host of other learning opportunities, from problem solving/research to action learning. The app would enable students to record what they are seeing in nature and their community, and what questions they have as a result.",
+	   	"pImgUrl" : "images/logo-lsf.png",
+		"tImgUrl" : "img/IMG_6261.jpg",
+		"link": "#"
+	},
+]
