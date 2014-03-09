@@ -39,6 +39,14 @@ h1{
 	font: 57px $primary-font;
 	color: $secondaryColour;
 }
+h2{
+	margin: 0 15px;
+	font-size:30px;
+}
+h3 {
+	margin: 0;
+	padding: 2% 6%;
+}
 img{
 	max-width:100%;
 }
@@ -60,15 +68,54 @@ header img{
 	border:1px solid red;
 }
 
-#container > div > p {
+div > p {
 	margin: 0;
 	padding: 2%;
 }
+
 .content{
 	max-width:100%;
+	padding-top:2%;
 	background-color: $bgColour;
+	overflow:hidden;
+}
+.col-1{
+	width:100%;
+	@media (min-width:$mid-bp){
+		width:65%;
+		float:left;
+	}
 }
 
+.col-2{
+	width:100%;
+	@media (min-width:$mid-bp){
+		width:35%;
+		float:left;
+	}
+}
+.col-3{
+	width:100%;
+	@media (min-width:$mid-bp){
+		width:50%;
+		float:left;
+	}
+}
+.col-4{
+	width:100%;
+	@media (min-width:$mid-bp){
+		width:50%;
+		float:left;
+	}
+}
+footer{
+	background-color:$headerColour;
+}
+
+footer > img{
+	max-width:100%;
+	margin:1%;
+}
 /** Nav **/
 .main-nav{
 
