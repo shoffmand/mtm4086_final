@@ -31,7 +31,7 @@ function loadJSON(){
 		console.log(jsonObj[0].title);
 		
 		//Div to append all my results
-		var feed = document.getElementById('col-3');
+		var projects = document.getElementById('col-3');
 		
 		for (var key in jsonObj){
 			console.log(jsonObj[key]);
@@ -50,25 +50,23 @@ function loadJSON(){
 		pImg.setAttribute('src', jsonObj[key].pImgUrl);
 		//create Img
 		var tImg = document.createElement('img');
-		tImg.setAttribute('src', jsonObj[key].pImgUrl);
+		tImg.setAttribute('src', jsonObj[key].tImgUrl);
 		var li = document.createElement('a');
 		li.setAttribute('href', jsonObj[key].li);
 		
 	
 
-		//append the Image to the article-feed div
-		feed.appendChild(title);
-		feed.appendChild(team);	
-		feed.appendChild(info);
-		feed.appendChild(pImg);
-		feed.appendChild(tImg);
-		feed.appendChild(li);
-	
+		//append to col-3
+		projects.appendChild(title);
+		projects.appendChild(pImg);
+		
+		projects.appendChild(team);	
+		projects.appendChild(info);		
+		projects.appendChild(tImg);
+		projects.appendChild(li);
+		
 		}
-		
-		
       }
-
    }
    http_request.open("GET", data_file, true);
    http_request.send();

@@ -14,7 +14,7 @@ header img{
 	margin: 0 auto;
 }
 
-div > p {
+p {
 	margin: 0;
 	padding: 2%;
 }
@@ -45,14 +45,27 @@ div > p {
 #col-3{
 	width:100%;
 	@media (min-width:$mid-bp){
-		width:50%;
+		width:90%;
+		padding:2%;
 		float:left;
 	}
 }
-.col-4{
+#col-3 img{
+	max-width:100%;
+	@media (min-width:$mid-bp){
+		max-width:70%;
+	}
+}
+#col-3 h2{
+	margin:3% 0 0 0;
+}
+#col-3 h4, p{
+	margin:0;
+}
+#col-4{
 	width:100%;
 	@media (min-width:$mid-bp){
-		width:50%;
+		width:40%;
 		float:left;
 	}
 }
