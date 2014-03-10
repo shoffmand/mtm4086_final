@@ -1,0 +1,51 @@
+.navvy{
+	@include clearfix;
+		clear:both;
+	ul{ 
+		padding:0; 
+		margin:0; 
+		
+	}
+	
+	li{ 
+		margin-top:1em; 
+		list-style:none; 
+	}
+	li:first-child{ 
+		padding-left: 0;
+	 
+		margin-top:0;
+	}
+	a{ 
+		display:block; 
+		color:$navColour; 
+		text-decoration:none; 
+		font:$secondary-font; 
+		padding:1em; 
+		text-align:center; 
+		background-color:$secondaryColour;
+	}
+	a:hover{
+		background-color:$bgColour;
+		color:$linkHover;
+	}
+	
+	@media (min-width:$mid-bp){
+
+		@include clearfix;
+	
+		ul { @include clearfix; padding-right:20%; float:right;}
+		li { 
+			float:left; 
+			margin-left:1em; 
+			margin-top:0; 
+		}
+		li:first-child{ 	
+			padding-left: 0; 
+		}
+		a{ 
+			padding:0.5em 1em; 
+			text-align:center; 
+		}	
+	}
+}

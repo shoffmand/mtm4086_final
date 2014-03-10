@@ -1,0 +1,83 @@
+/*Normalize*/
+@import 'normalize';
+/*Mixins*/
+@import 'mixins';
+/*External Fonts*/
+@import 'fonts';
+
+/** Defaults **/
+/*Breakpoints*/
+$largest-bp : 960px;
+$mid-bp : 520px;
+$sm-bp : 340px;
+/*Header background colour*/
+$headerColour : #d3e4ff;
+/*the default link colour*/
+$linkColour: #485d80;
+$navColour: #e7ebf0;
+$linkHover: #dc4e23;
+/*the background colour for most elements*/
+$bgColour: #e7ebf0;
+/*the colour for the footer*/
+$fColour: #d6d6d6;
+
+
+/** Fonts **/
+$primary-font : robotoregular, sans-serif;
+$secondary-font : robotobold, Arial, sans-serif;
+$secondaryColour : #485d80;
+$priFont-colour : #333333;
+
+
+body{
+	font-family:$primary-font;
+	color:$priFont-colour;
+}
+h1{
+	font: 2em $secondary-font;
+	color: $secondaryColour;
+	@media (min-width:$mid-bp){
+		margin-top: 0;
+		margin-left: 2%;
+		margin-bottom: 0;
+		font: 70px $secondary-font;
+		color: $secondaryColour;
+	}
+		@media (max-width:$sm-bp){
+		margin-top: 0;
+		margin-left: 2%;
+		margin-bottom: 0;
+		font: 1.8em $secondary-font;
+		color: $secondaryColour;
+	}
+}
+h2{
+	margin: 0 15px;
+	font-size:30px;
+}
+h3 {
+	margin: 0;
+	padding: 2% 6%;
+}
+h4 {
+	margin: 5px 15px;
+}
+img{
+	max-width:100%;
+}
+button {
+	margin: 0 2%;
+}
+a{
+	color:$linkColour;
+}
+a:hover{
+	color:$linkHover;
+	text-decoration:none;
+}
+/** Layout **/
+@import 'layout';
+
+/** Nav **/
+@import 'navigation';
+
