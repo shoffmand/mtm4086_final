@@ -1,0 +1,86 @@
+header{
+	max-width:100%;
+	background-color:$headerColour;
+	overflow:hidden;
+}
+header img{
+	max-width:30%;
+	margin: 15px;
+	float:left;
+}
+
+#container{
+	max-width:$largest-bp;
+	margin: 0 auto;
+}
+
+div > p {
+	margin: 0;
+	padding: 2%;
+}
+
+.content{
+	max-width:100%;
+	padding-top:2%;
+	background-color: $bgColour;
+	overflow:hidden;
+}
+.col-1{
+	width:100%;
+	margin:2% 2%;
+	@media (min-width:$mid-bp){
+		width:55%;
+		float:left;
+		margin:0 2%;
+	}
+}
+
+.col-2{
+	width:100%;
+	@media (min-width:$mid-bp){
+		width:40%;
+		float:left;
+	}
+}
+#col-3{
+	width:100%;
+	@media (min-width:$mid-bp){
+		width:50%;
+		float:left;
+	}
+}
+.col-4{
+	width:100%;
+	@media (min-width:$mid-bp){
+		width:50%;
+		float:left;
+	}
+}
+.project{
+	padding:5px;
+}
+.eventInfo{
+	padding: 0 4% 2%;
+	p, h2, h3{
+		margin:5px 0;
+		padding:0;
+	}
+}
+
+/**** Google Maps API https://developers.google.com/maps/documentation/javascript/examples/map-simple ****/
+html, body, #map-canvas {
+	width:100%;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+footer{
+	background-color:$headerColour;
+}
+
+footer > img{
+	max-width:100%;
+	margin:1%;
+}
